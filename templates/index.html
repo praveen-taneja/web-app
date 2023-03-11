@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Machine learning models deployed on AWS
+        </title>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'css/main.css')}}">
+    </head>
+    <body>
+        <h1><b>Praveen Taneja's webapp to interact with machine learning models deployed on AWS</b></h1>
+        <form action="predict" method="post">
+            <label for="fName">First Name:</label><br>
+            <input type="text" name="fName"><br>
+            <label for = "lName">Last Name:</label><br>
+            <input type="text" name="lName">
+            <input type="submit" value="Submit" id="Submit"><br>
+            <p>{{output}}</p>
+        </form>
+    </body>
+</html>
