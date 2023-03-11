@@ -1,0 +1,25 @@
+body {
+    background-color: darkslategray;
+}
+
+p {
+    color: white;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+}
+
+label {
+    color: white;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+h1 {
+    color: white;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
